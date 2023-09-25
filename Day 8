@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+	int T;
+	scanf("%d", &T);
+	
+	while(T--)
+	{
+	    int X,Y,bath_people;
+	    scanf("%d %d", &X, &Y);
+	    bath_people = X/(2*Y);
+	    printf("%d\n", bath_people);
+	}
+	
+	return 0;
+}
